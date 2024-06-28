@@ -1,0 +1,61 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+@font-face {
+    font-family: 'CursedTimerUlil-Aznm';
+    src: URL('CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+
+h4,
+button {
+    font-family: 'CursedTimerUlil-Aznm';
+}
+
+h3 {
+    font-size: 40px;
+    margin-top: 68px;
+}
+
+h4 {
+    background-color: #080001;
+    font-size: 90px;
+    color: #F94F6D;
+    height: 120px;
+    width: 155px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 2px;
+    padding-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 385px;
+    width: 575px;
+    background-color: #1B244A;
+    margin: auto;
+}
+
+.buttoncontainer {
+    height: 45px;
+    width: 155px;
+    margin-top: -71%;
+    justify-content: center;
+}
+
+.newgame {
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+
+button {
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+    background-color: #1B244A;
+}
